@@ -1,16 +1,40 @@
 /* font size */
+@media only screen and (min-width: 1025px) {
 
-@media screen and (min-width: 601px){
-  div.example{
-    font-size: 80px;
-  }
+ #main-navigation {
+ background: rgba(101, 89, 60, 0.9);
+ width:15%;
+ }
+
 }
 
-@media screen and (max-width: 600px) {
-  div.example{
-    font-siz: 20px;
+#main-navigation {
+ background: rgba(101, 89, 60, 0.9)
+     }
+
+@media only screen and (max-width: 640px) {
+  body {
+      font-size: 16px;
   }
+
+  h1 {
+      font-size: 28px;
+  }
+
+  h2 {
+      font-size: 24px;
+  }
+
+  h3 {
+      font-size: 20px;
+  }
+
+  blockquote {
+      font-size: 16px !important;
+  }
+
 }
+
 
 
 /* home page styling*/
@@ -24,12 +48,12 @@
   width: 100%
 }
 .logo-nav{
-width: 40px;
+width: 70px;
 }
 
 .navbar-brand{
   font-family: Ubuntu;
-  font-size: 36.4px;
+  font-size: 50.4px;
   fonts-style: bold;
 
 }
