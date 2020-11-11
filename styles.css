@@ -39,6 +39,10 @@
 
 /* home page styling*/
 
+.navbar {
+  font-size: 16px;
+}
+
 .link {
   color: inherit;
 }
@@ -94,9 +98,16 @@ h2{
 
 .HomeTop-container {
   position: Relative;
-  padding: 6% 5% 3%;
+  padding: 3% 5% 3%;
   text-align: center;
+}
 
+.BatHomeTop-container{
+  background-color: #f6f5f5;
+  position: Relative;
+  padding: 10% 5% 3%;
+  text-align: center;
+  color: #4c4c4c;
 }
 .intro{
   position: Relative;
@@ -104,19 +115,56 @@ h2{
   text-align: center;
 
 }
+.batlist{
+  width: 80%;
+  margin: 1% auto 2% auto;
+  padding: 1% 1% 1%;
+  color: #4c4c4c;
+
+}
+.batintro{
+  position: Relative;
+  padding: 10% 8% 30%;
+  text-align: center;
+  line-height: 2;
+  color: #4c4c4c;
+}
+
+.inlinebat{
+  width: 18%;
+  float: left;
+  margin: 30px;
+  color: #4c4c4c;
+
+}
 
 .MidTop-container {
   background-color: #f6f5f5;
   position: Relative;
-  padding: 3% 5% 3%;
+  padding: 3% 10% 3%;
   text-align: center;
+  }
+  .BatMidTop-container {
+
+    position: Relative;
+    padding: 3% 10% 3%;
+    text-align: center;
+    color: #4c4c4c;
+
   }
 
   .bodylogo{
     position: center;
+    text-align: center;
     width: 50%
 
   }
+  .batlogo{
+   padding: 1% 3% 1%;
+   position: center;
+   text-align: center;
+   background-color: #888888;
+}
   .col-lg-4{
     padding: 0% 0% 3%
 
