@@ -39,8 +39,10 @@
 
 /* home page styling*/
 
+
 .navbar {
   font-size: 16px;
+  padding: 1% 1% 1%;
 }
 
 .link {
@@ -52,7 +54,7 @@
   width: 100%
 }
 .logo-nav{
-width: 70px;
+width: 60px;
 }
 
 .navbar-brand{
@@ -67,15 +69,15 @@ width: 70px;
   width: 100%
 }
 .link:hover{
-  color: #a6a6a4;
+  color: #ff9642;
 }
 
 p1{
-  font-size: 20.4px;
+  font-size: 21.9px;
 }
 
 p2{
-  font-size: 18.8;
+  font-size: 20.4px;
 }
 
 h1{
@@ -86,7 +88,6 @@ h1{
 h2{
   font-family: "Ubuntu";
   text-decoration-color: Black;
-
   line-height: 1.5;
 }
 .centered {
@@ -94,6 +95,17 @@ h2{
   top: 40%;
   left: 40%;
   transform: translate(-50%, -40%);
+}
+
+.homesolar-left {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+
+
+
+
 }
 
 .HomeTop-container {
@@ -105,10 +117,36 @@ h2{
 .BatHomeTop-container{
   background-color: #f6f5f5;
   position: Relative;
-  padding: 10% 5% 3%;
+  padding: 0% 5% 0%;
   text-align: center;
   color: #4c4c4c;
 }
+
+.solarhome-container{
+  background-color: #f6f5f5;
+  position: Relative;
+  padding: 3% 10% 7%;
+  text-align: center;
+
+}
+
+.solarhome-container1{
+  background-color: #ffffff;
+  position: Relative;
+  padding: 3% 10% 3%;
+  text-align: center;
+  color: #1b262c;
+
+}
+
+.Solarsol-container{
+  background-color: #1b262c;
+  position: Relative;
+  padding: 5% 5% 5%;
+  text-align: center;
+  color: #ff9642;
+}
+
 .intro{
   position: Relative;
   padding: 0.5% 8%;
@@ -145,25 +183,36 @@ h2{
   text-align: center;
   }
   .BatMidTop-container {
-
     position: Relative;
     padding: 3% 10% 3%;
     text-align: center;
     color: #4c4c4c;
 
   }
+  .MidTop-container1 {
+    background-color: #f6f5f5;
+    position: Relative;
+    padding: 0% 10% 3%;
+    text-align: center;
+    }
 
   .bodylogo{
     position: center;
     text-align: center;
     width: 50%
+  }
 
+  .bodylogo1{
+    position: center;
+    text-align: center;
+    width: 90%
   }
   .batlogo{
    padding: 1% 3% 1%;
    position: center;
    text-align: center;
    background-color: #888888;
+   color:  #fff3cd;
 }
   .col-lg-4{
     padding: 0% 0% 3%
@@ -172,7 +221,7 @@ h2{
   .container1{
     position: Relative;
     text-align: center;
-    padding: 4% 12%
+    padding: 3% 1%
   }
   .text-style{
     position: Relative;
@@ -232,6 +281,14 @@ width: 20px;
   min-width: 210px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.3%;
+  padding: 5px;
 }
 
 /* Links inside the dropdown */
